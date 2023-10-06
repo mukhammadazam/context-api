@@ -66,23 +66,25 @@ const Navbar = () => {
           ) : (
             ""
           )}
-          <div className='nav__link d-none d-lg-flex align-items-center '>
-            <Link className='d-block nav__link--item text-decoration-none'>
-              Buy template
-            </Link>
-            <Link className='d-block nav__link--item d-flex align-items-center text-decoration-none'>
-              <BsFillCartCheckFill className='d-block pe-1 fs-4' />
-              Cart
-              <span className='nav__link--zero'>0</span>
-            </Link>
+          <div className='d-flex'>
+            <button
+              onClick={togleFunction}
+              className='border-0 d-lg-none me-5 bg-transparent'>
+              <span className='d-block   nav__leni bg-dark'></span>
+              <span className='d-block  nav__leni bg-dark'></span>
+              <span className='d-block  nav__leni bg-dark'></span>
+            </button>
+            <div className='nav__link d-none d-md-flex align-items-center '>
+              <Link className='d-block nav__link--item text-decoration-none'>
+                Buy template
+              </Link>
+              <Link className='d-block nav__link--item d-flex align-items-center text-decoration-none'>
+                <BsFillCartCheckFill className='d-block pe-1 fs-4' />
+                Cart
+                <span className='nav__link--zero'>0</span>
+              </Link>
+            </div>
           </div>
-          <button
-            onClick={togleFunction}
-            className='border-0 d-lg-none bg-transparent'>
-            <span className='d-block   nav__leni bg-dark'></span>
-            <span className='d-block  nav__leni bg-dark'></span>
-            <span className='d-block  nav__leni bg-dark'></span>
-          </button>
         </div>
       </div>
     </div>
