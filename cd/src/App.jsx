@@ -5,8 +5,8 @@ import Hero from "./components/Hero";
 function App() {
   return (
     <>
+      <Navbar />
       <Routes>
-        <Route path='/' element={<Navbar />} />
         <Route path='/' element={<Hero />} />
       </Routes>
     </>

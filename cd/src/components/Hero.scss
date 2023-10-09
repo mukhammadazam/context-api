@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../Fonts/Poppins-Regular.ttf");
+}
+.hero {
+  background-image: url("../../public/baground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+  height: 86vh;
+  &__leni {
+    padding-top: 200px;
+    display: block;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #e6b939;
+  }
+  &__title {
+    max-width: 416px;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    width: 100%;
+  }
+  &__text {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #caccd1;
+    max-width: 495px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .hero {
+
+  }
+}
