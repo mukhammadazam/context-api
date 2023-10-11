@@ -7,11 +7,14 @@ const About = () => {
     <div className='About'>
       <div className='About__fon '></div>
       <div className='container'>
-        <div className='about d-lg-flex align-items-lg-center justify-content-lg-between '>
-          <div className='about__left d-flex justify-content-center d-lg-block'>
+        <div className='about d-xxl-flex align-items-lg-center justify-content-lg-between '>
+          <div className='about__left d-flex justify-content-center d-xxl-block'>
             <img className="w-100" src={AboutImg} alt='AboutImg'   />
+<div className="about__left--posi">
+  
+</div>
           </div>
-          <div className='about__right d-flex justify-content-center d-lg-block pt-5 pt-lg-0'>
+          <div className='about__right d-flex justify-content-center d-xxl-block pt-5 pt-xxl-0'>
             <div>
               <span className='about__right--leni '>Who are we?</span>
               <h2 className='about__right--title'>A bit about us.</h2>

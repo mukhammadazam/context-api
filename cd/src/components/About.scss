@@ -13,9 +13,20 @@
 }
 .about {
   padding: 76px;
-  &__left{
-    img{
-        max-width: 576px;
+  &__left {
+    img {
+      max-width: 576px;
+    }
+    &--posi {
+      background-image: url("../../public/fon.png");
+      background-repeat: no-repeat;
+      background-size: center;
+      background-position: center;
+      width: 256px;
+      height: 256px;
+      position: absolute;
+      top: 1250px;
+      left: 5%;
     }
   }
   &__right {
