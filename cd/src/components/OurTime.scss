@@ -40,6 +40,47 @@
     height: 423px;
     width: 470px;
     right: 40px;
-top: 1400px;
-}
+    top: 1400px;
+  }
+  &__row {
+    &--col {
+      // max-width: 300px;
+      // width: 100%;
+    }
+    padding-top: 40px;
+    padding-bottom: 50px;
+    &--text {
+      max-width: 287px;
+      width: 100%;
+      margin: 0 auto;
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0em;
+      color: #575445;
+    }
+    &--title {
+      font-family: Poppins;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      color: #575445;
+    }
+    &--icon {
+      display: block;
+      width: 64px;
+      margin: 0 auto;
+    }
+  }
+  &__fourPosi {
+    width: 534px;
+    height: 434px;
+    background-image: url("../../public/four-position.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 1940px;
+  }
 }
