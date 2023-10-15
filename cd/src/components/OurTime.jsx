@@ -21,7 +21,7 @@ const OurTime = () => {
           </p>
         </div>
         <div className='ourTime__pos d-none d-lg-block'></div>
-        <div className='ourTime__fourPosi'></div>
+        <div className='ourTime__fourPosi d-none d-lg-block'></div>
         <div className='row  ourTime__row d-flex justify-content-center gy-5  '>
           <div className='col-12 col-sm-6 ourTime__row--col col-lg-4 d-flex pb-5 justify-content-center'>
             <div>
