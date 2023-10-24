@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import "./MeetFamily.scss";
 import { MyContext } from "./ContextApi";
+import { Link } from "react-router-dom";
 const MeetFamily = () => {
   const { data } = useContext(MyContext);
 
@@ -22,13 +23,26 @@ const MeetFamily = () => {
           {data.slice(0, 6).map((el, index) => (
             <div key={index} className='col-lg-4 '>
               <div className='card w-100'>
-                <img className="d-block w-100"
-                  src={el.video.thumbnails[3].url}
+                <img
+                  className='d-block w-100 rounded meetFamily__row--img '
+                  src={el.imageUrl}
                   height={473}
                   // width={379}
                   alt=''
                 />
-                <strong className='d-block'>{el.video.title.slice(0,12)}</strong>
+                <div className=' d-flex align-items-center justify-content-center'>
+                  <div className='positon-absolute card__enner'>
+                    <strong className='d-block meetFamily__row--title '>
+                      {el.title.slice(0, 10)}
+                    </strong>
+                    <p className='card__text '>{el.summary.slice(0, 50)}</p>
+                    <Link
+                      to='/'
+                      className='card__btn text-decoration-none border-0 bg-transparent  d-block'>
+                      Show more
+                    </Link>
+                  </div>
+                </div>
               </div>
             </div>
           ))}
