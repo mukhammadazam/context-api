@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import "./MeetFamily.scss";
 import { MyContext } from "./ContextApi";
 import { Link } from "react-router-dom";
+import { HiArrowNarrowRight } from "react-icons/hi";
 const MeetFamily = () => {
   const { data } = useContext(MyContext);
 
@@ -37,9 +38,9 @@ const MeetFamily = () => {
                     </strong>
                     <p className='card__text '>{el.summary.slice(0, 50)}</p>
                     <Link
-                      to='/'
+                      to={`/${el.title}`}
                       className='card__btn text-decoration-none border-0 bg-transparent  d-block'>
-                      Show more
+                      Show more <HiArrowNarrowRight />
                     </Link>
                   </div>
                 </div>
