@@ -13,7 +13,9 @@ const Navbar = () => {
     <div className='navbar bg-light'>
       <div className='container'>
         <div className='nav d-flex w-100 align-items-center justify-content-between'>
-          <img src={Logo} alt='Logo' />
+          <Link to='/'>
+            <img src={Logo} alt='Logo' />
+          </Link>
           <div className='nav__list d-lg-flex d-none align-item-center justify-content-center'>
             <NavLink className='text-decoration-none nav__list--item d-block'>
               Shop

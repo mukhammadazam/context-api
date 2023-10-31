@@ -17,7 +17,7 @@ const UseParams = () => {
                   className='w-100 card'
                   src={el.imageUrl}
                   alt='img'
-                  height={300}
+                  height={400}
                 />
                 <div className='container d-flex justify-content-center'>
                   <div className='bg-light use '>
