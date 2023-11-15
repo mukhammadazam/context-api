@@ -36,6 +36,21 @@
       margin: 0 auto;
     }
   }
+  &__linkAll {
+    padding-top: 20px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+      color: #575445;
+
+    &:hover{
+
+      color: #575445;
+
+    }
+  }
 }
 .card {
   &__enner {
@@ -68,11 +83,11 @@
     text-align: center;
     color: #413e28;
     padding-top: 5px;
-       transition: all ease 2s;
+    transition: all ease 2s;
 
-    &:hover{
-       color: #b7ae68;
-       transition: all ease 2ms;
+    &:hover {
+      color: #b7ae68;
+      transition: all ease 2ms;
     }
   }
 }

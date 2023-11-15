@@ -1,7 +1,8 @@
 import React, { useContext } from "react";
-import {  useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { MyContext } from "./ContextApi";
-import './UseParams.scss'
+import { HiArrowNarrowRight } from "react-icons/hi";
+import "./UseParams.scss";
 const UseParams = () => {
   const { title } = useParams();
   const { data } = useContext(MyContext);
@@ -25,6 +26,11 @@ const UseParams = () => {
                       {el.title}
                     </h3>
                     <p className='text-center  use__text '>{el.summary}</p>
+                    <Link
+                      to='/'
+                      className='d-block text-center text-dark  text-decoration-none fs-4'>
+                      Go out <HiArrowNarrowRight />
+                    </Link>
                   </div>
                 </div>
               </div>

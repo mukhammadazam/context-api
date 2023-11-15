@@ -48,6 +48,9 @@ const MeetFamily = () => {
             </div>
           ))}
         </div>
+        <Link to='/All' className='text-decoration-none  d-block meetFamily__linkAll text-center'>
+          Show all categories <HiArrowNarrowRight />
+        </Link>
       </div>
     </div>
   );
