@@ -17,10 +17,10 @@ const Navbar = () => {
             <img src={Logo} alt='Logo' />
           </Link>
           <div className='nav__list d-lg-flex d-none align-item-center justify-content-center'>
-            <NavLink className='text-decoration-none nav__list--item d-block'>
+            <NavLink to='/Hero' className='text-decoration-none text-dark nav__list--item d-block'>
               Shop
             </NavLink>
-            <NavLink className='text-decoration-none nav__list--item d-block'>
+            <NavLink to='/About' className='text-decoration-none text-dark nav__list--item d-block'>
               About Us
             </NavLink>
             <NavLink className='text-decoration-none nav__list--item d-block'>
@@ -37,7 +37,7 @@ const Navbar = () => {
             <div className=' position-absolute d-flex justify-content-center nav__bg   top-100'>
               <div className=''>
                 <div className='pt-5 '>
-                  <NavLink className='text-decoration-none pb-4 text-center nav__list--item d-block'>
+                  <NavLink to='/' className='text-decoration-none  pb-4 text-center nav__list--item d-block'>
                     Shop
                   </NavLink>
                   <NavLink className='text-decoration-none pb-4 text-center nav__list--item d-block'>
