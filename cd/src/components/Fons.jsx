@@ -2,8 +2,12 @@ import './Fons.scss'
 
 const Fons = () => {
   return (
-    <div >Fons</div>
-  )
+    <div className='fons'>
+      <div className='container'>
+        
+      </div>
+    </div>
+  );
 }
 
 export default Fons

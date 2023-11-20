@@ -17,19 +17,19 @@ const Navbar = () => {
             <img src={Logo} alt='Logo' />
           </Link>
           <div className='nav__list d-lg-flex d-none align-item-center justify-content-center'>
-            <NavLink to='/Hero' className='text-decoration-none text-dark nav__list--item d-block'>
+            <NavLink to='/' className='text-decoration-none text-dark nav__list--item d-block'>
               Shop
             </NavLink>
-            <NavLink to='/About' className='text-decoration-none text-dark nav__list--item d-block'>
+            <NavLink to='/' className='text-decoration-none text-dark nav__list--item d-block'>
               About Us
             </NavLink>
-            <NavLink className='text-decoration-none nav__list--item d-block'>
+            <NavLink className='text-decoration-none text-dark nav__list--item d-block'>
               Our team
             </NavLink>
-            <NavLink className='text-decoration-none nav__list--item d-block'>
+            <NavLink className='text-decoration-none text-dark nav__list--item d-block'>
               Buyer's guides
             </NavLink>
-            <NavLink className='text-decoration-none nav__list--item d-block'>
+            <NavLink className='text-decoration-none text-dark nav__list--item d-block'>
               Categories
             </NavLink>
           </div>

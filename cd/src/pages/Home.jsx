@@ -3,7 +3,7 @@ import About from "../components/About";
 import Hero from "../components/Hero";
 import OurTime from "../components/OurTime";
 import MeetFamily from "../components/MeetFamily";
-
+import Fons from "../components/Fons";
 const Home = () => {
   return (
     <div>
@@ -11,6 +11,7 @@ const Home = () => {
       <About />
       <OurTime />
       <MeetFamily />
+      <Fons />
     </div>
   );
 };

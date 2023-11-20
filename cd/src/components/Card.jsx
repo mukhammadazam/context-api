@@ -2,7 +2,11 @@ import React from 'react'
 
 const Card = () => {
   return (
-    <div>Card</div>
+    <div className='bground'>
+      <div className="container">
+        
+      </div>
+    </div>
   )
 }
 
