@@ -3,13 +3,13 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    position: relative;
-    height: 50vh;
+    height: 90vh;
     &__wrapper{
+        position: relative;
         &--enner{
          position: absolute;
-        bottom: 40px;
-        right: 40px;
+        bottom: -580px;
+        right: 0px;
        }
     }
 }

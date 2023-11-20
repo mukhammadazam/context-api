@@ -1,0 +1,15 @@
+.shop {
+  background-image: url("../../public/Rectangle.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  position: relative;
+  &__wrapper {
+    background-image: url("../../public/IM.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+  }
+}
