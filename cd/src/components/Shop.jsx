@@ -15,7 +15,7 @@ const Shop = () => {
               ligula. Vestibulum sit amet urna turpis. Mauris euismod elit et
               nisi ultrices, ut faucibus orci tincidunt.
             </p>
-            <button className='shop__enner--btn d-block mx-auto border-0'>Visit shop</button>
+            <button className='shop__enner--btn d-block bg-translate mx-auto border-0'>Visit shop</button>
           </div>
         </div>
       </div>
